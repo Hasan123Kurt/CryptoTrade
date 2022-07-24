@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingBottom="40dp"
+        android:background="@drawable/rectangle"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+        <TextView
+            android:id="@+id/bigTitle"
+            android:layout_width="wrap_content"
+            android:text="Bitcoin"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/robotolight"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/miniTitle"
+            android:layout_alignTop="@id/bigTitle"
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#6A5656"
+            android:textSize="20sp"
+            android:text="BTC"/>
+
+        <TextView
+            android:fontFamily="@font/bigshoulderlight"
+            android:id="@+id/priceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="$35.27"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            />
+        <ImageView
+            android:id="@+id/icon_btc"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bitcoin"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
